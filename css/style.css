@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: arial;
+}
+.bg-circles {
+    background: #F74C55 url(../design/bg-circles-full.jpg) no-repeat;
+    background-position: center top;
+    background-size: auto 100%;
+} 
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.logo {
+    background: url(../design/logo.png) no-repeat;
+    display: inline-block;
+    width: 105px;
+    padding: 80px;
+    margin-top: 10px;
+}
+.menu {
+    display: block;
+    float: right;
+    margin-top: 20px;
+}
+.menu a {
+    text-decoration: none;
+    color: white;  
+    padding: 30px;
+}
+.main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+    color: white;
+    padding: 10% 20%;
+}
+.main h2 {
+    margin-bottom: 2px;
+}
+.main p {
+    margin-top: 1px;
+}
+.main a {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 6px 15px;
+}
+.info {
+    padding: 70px 0;
+}
+.info a {
+    background: url(../design/bg-bricks.jpg) no-repeat;
+    display: inline-block;
+    width: 178px;
+    height: 50px;
+    margin-top: 20px;
+}
+.item {
+    width: 100%;
+    background-color: #2D5F3A;
+    display: inline-block;
+    color: #F8FFFC;
+}
+.box-stat {
+    width: 33%;
+    display: inline-block;
+    background: url(../design/ic-stat.png) no-repeat;
+
+}
+.box-stat h3 {
+    padding: 0 40px;
+    margin-top: 7px;
+}
+.symbol {
+    text-align: right;
+    margin-bottom: 39px;
+}
+.symbol a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-right: 31px;
+    padding: 1px 7px;
+    background: rgb(0, 0, 0, 0.5);
+}
+.box-res {
+    width: 33%;
+    display: inline-block;
+    background-color: #F74C55;
+}
+.box-in {
+    background: url(../design/ic-screen.png) no-repeat;
+    margin: 0 20px;
+}
+.box-in h3 {
+    padding: 4px 50px;
+}
+.icon {
+    text-align: right;
+    margin-bottom: 39px;
+    
+}
+.icon a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 1px 7px;
+    background: rgb(0, 0, 0, 0.5);
+}
+.box-cloud {
+    width: 30%;
+    display: inline-block;
+    margin-left: 20px;
+    background: url(../design/ic-cloud.png) no-repeat;
+}
+.box-cloud h3 {
+    padding: 0px 49px;
+    margin-top: 6px;
+}
+.btn {
+    text-align: right;
+    
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 1px 7px;
+    background: rgb(0, 0, 0, 0.5);
+}
+.gallery {
+    background: url(../design/bg-nature.jpg) no-repeat;
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    color: white;
+    text-align: center;
+    background-size: 100% auto;
+}
+.gallery h1 {
+    padding-top: 230px;
+}
+.gallery a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 30px;
+}
+.line {
+    background: url(../design/bg-bricks.jpg);
+    width: 100%;
+    height: 10px;
+    display: inline-block;
+    padding-top: 4px;
+}
+.footer {
+    text-align: center;
+    padding-bottom: 7px;
+}
+
